@@ -1,15 +1,13 @@
 {
   "name": "portfolio-website",
   "version": "1.0.0",
-  "description": "A multi-page static portfolio website",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint:html": "htmlhint '**/*.html'",
+    "lint:css": "stylelint '**/*.css'"
   },
   "devDependencies": {
-    "htmlhint": "^0.14.2",
-    "stylelint": "^14.16.1"
-  },
-  "author": "Your Name",
-  "license": "MIT"
+    "htmlhint": "^0.15.0",
+    "stylelint": "^14.0.0",
+    "stylelint-config-standard": "^24.0.0"
+  }
 }
