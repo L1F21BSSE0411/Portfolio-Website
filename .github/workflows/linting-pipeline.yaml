@@ -19,4 +19,4 @@ jobs:
       - name: Install Style lint
         run: npm install --save-dev stylelint
       - name: Lint CSS Files
-        run: npx stylelint "**/
+        run: npx stylelint "**/*.css"
