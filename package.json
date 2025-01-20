@@ -4,10 +4,6 @@
   "scripts": {
     "lint:html": "htmlhint '**/*.html'",
     "lint:css": "stylelint '**/*.css'"
-  },
-  "devDependencies": {
-    "htmlhint": "^0.15.0",
-    "stylelint": "^14.16.1",
-    "stylelint-config-standard": "^24.0.0"
   }
+  
 }
